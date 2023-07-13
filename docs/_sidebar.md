@@ -7,4 +7,8 @@
    
    - 第2章：Docker and Docker Compose
    
-       - [第3节：Docker Install](/md/idea-plugin/docker-install.md)
+       - [第1节：Docker Install](/md/idea-plugin/docker-install.md)
+
+   - 第3章：Help Code
+   
+       - [第1节：Format tools](/md/idea-plugin/code-tools.md)
