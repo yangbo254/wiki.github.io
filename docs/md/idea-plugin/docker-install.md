@@ -20,3 +20,16 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```bash
 docker-compose version
 ```
+
+## Github加速
+https://ghproxy.com/
+
+## docker pull加速
+https://dockerproxy.com/
+https://gist.github.com/y0ngb1n/7e8f16af3242c7815e7ca2f0833d3ea6
+
+## 泛域名证书
+https://ssl.ioiox.com/
+
+## GEOIP
+https://github.com/Loyalsoldier/geoip

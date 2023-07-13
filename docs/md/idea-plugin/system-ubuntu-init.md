@@ -1,4 +1,4 @@
-# Ubuntu 20.04 开启Google BBR的方法
+## Ubuntu 20.04 开启Google BBR的方法
 
 ### 设置
 ```shell
@@ -27,3 +27,7 @@ lsmod | grep bbr
 # lsmod | grep bbr
 tcp_bbr                20480  14
 ```
+
+## Ubuntu 软件仓库镜像(清华源)
+
+https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
