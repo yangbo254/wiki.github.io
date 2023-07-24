@@ -1,8 +1,14 @@
 # docker about
 ## docker install
+### 通用方法
 ```shell
- curl -fsSL https://get.docker.com -o get-docker.sh
- sudo sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+
+### Amazon Linux
+```shell
+yun install docker
 ```
 
 ## docker-compose install
@@ -11,7 +17,7 @@ https://github.com/docker/compose/releases
 
 ### 安装
 ```shell
-sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
