@@ -8,7 +8,7 @@ sudo sh get-docker.sh
 
 ### Amazon Linux
 ```shell
-yun install docker
+yum install docker
 ```
 
 ## docker-compose install

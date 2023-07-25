@@ -24,6 +24,7 @@ yum localinstall ls ~/rpmbuild/RPMS/noarch/amazon-ec2-net-utils-1.7.3-1.el7.noar
 ### Ubuntu/debian
 
 https://tracker.debian.org/pkg/amazon-ec2-net-utils
+
 https://launchpad.net/ubuntu/+source/amazon-ec2-net-utils
 
 #### 2.x版本
