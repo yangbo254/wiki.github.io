@@ -6,8 +6,13 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh &&\
+sudo sh get-docker.sh
+```
+
 ### Amazon Linux
-```shell
+```bash
 yum install docker
 ```
 
@@ -16,9 +21,15 @@ yum install docker
 https://github.com/docker/compose/releases
 
 ### 安装
-```shell
+```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose &&\
+sudo chmod +x /usr/local/bin/docker-compose &&\
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 

@@ -11,6 +11,12 @@ echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
 sysctl -p
 ```
 
+```shell
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf  &&\
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf  &&\
+sysctl -p
+```
+
 
 ### 查询
 ```shell
@@ -26,6 +32,11 @@ lsmod | grep bbr
 ```
 # lsmod | grep bbr
 tcp_bbr                20480  14
+```
+
+```
+sysctl net.ipv4.tcp_available_congestion_control &&\
+lsmod | grep bbr
 ```
 
 ## Ubuntu 软件仓库镜像(清华源)
