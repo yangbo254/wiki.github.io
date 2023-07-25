@@ -27,9 +27,11 @@ https://tracker.debian.org/pkg/amazon-ec2-net-utils
 
 https://launchpad.net/ubuntu/+source/amazon-ec2-net-utils
 
-#### 2.x版本
-
 ```bash
 sudo su -
-apt-get install amazon-ec2-net-utils -y
+apt install dpkg-dev -y &&\
+cd /tmp &&\
+wget https://launchpad.net/ubuntu/+archive/primary/+files/amazon-ec2-net-utils_2.3.0-3_all.deb &&\
+chmod a+rwx amazon-ec2-net-utils_2.3.0-3_all.deb  &&\
+apt install ./amazon-ec2-net-utils_2.3.0-3_all.deb 
 ```

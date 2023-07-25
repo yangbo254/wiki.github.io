@@ -3,5 +3,10 @@
 ### JSON FORMATER(JSON代码格式化)
 https://jsonformatter.curiousconcept.com/#
 
+
 ### JavaScript FORMATER
 https://beautifier.io/
+
+
+### 子网掩码计算
+https://www.sojson.com/convert/subnetmask.html
